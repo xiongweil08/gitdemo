@@ -1,0 +1,113 @@
+http://10.9.60.21:9601/api/html/multipart
+{
+    "page_num":1,
+    "params":{
+        "company_id":"UuUswHSC9A"
+    },
+    "page_confs":[
+	   {
+            "page_id":"enterprise_project_material",
+            "part_id":"get_file_type"
+        },
+        {
+            "page_id":"enterprise_project_material",
+            "part_id":"get_upload_person"
+        }
+     
+    ]
+}
+
+
+
+
+
+
+
+{
+    "code": 200,
+    "message": "success",
+    "data": [
+        {
+            "label": "文件类型",
+            "value": [
+                {
+                    "label": "不限",
+                    "key": "",
+                    "num": 0
+                },
+                {
+                    "label": "工作底稿",
+                    "key": "wenjianlxName",
+                    "num": 4
+                },
+                {
+                    "label": "工作方案",
+                    "key": "wenjianlxName",
+                    "num": 2
+                },
+                {
+                    "label": "技术总结",
+                    "key": "wenjianlxName",
+                    "num": 3
+                },
+                {
+                    "label": "访谈纪要",
+                    "key": "wenjianlxName",
+                    "num": 2
+                },
+                {
+                    "label": "评级报告",
+                    "key": "wenjianlxName",
+                    "num": 15
+                },
+                {
+                    "label": "评级矩阵",
+                    "key": "wenjianlxName",
+                    "num": 4
+                }
+            ],
+            "key": "get_file_type"
+        },
+        {
+            "label": "上传用户",
+            "value": [
+                {
+                    "label": "不限",
+                    "key": "",
+                    "num": 0
+                },
+                {
+                    "label": "公用打印专员",
+                    "key": "upload_person",
+                    "num": 1
+                },
+                {
+                    "label": "唐川",
+                    "key": "upload_person",
+                    "num": 3
+                },
+                {
+                    "label": "李婷婷",
+                    "key": "upload_person",
+                    "num": 5
+                },
+                {
+                    "label": "程碧珺",
+                    "key": "upload_person",
+                    "num": 18
+                },
+                {
+                    "label": "赵丽娜",
+                    "key": "upload_person",
+                    "num": 1
+                },
+                {
+                    "label": "郭增锦",
+                    "key": "upload_person",
+                    "num": 2
+                }
+            ],
+            "key": "get_upload_person"
+        }
+    ]
+}
